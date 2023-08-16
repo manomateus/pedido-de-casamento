@@ -1,0 +1,31 @@
+body {
+    background-color: #17ff1705;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#pedido {
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#botoes_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#sim-esquerdo,
+#sim-direito {
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Meu primeiro site</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 id="pedido">Você quer casar comigo?</h1>
+    
+    <div id="botoes_container">
+        <button id="sim-esquerdo">Sim</button>
+        <button id="sim-direito">Não</button>
+    </div>
+
+    <script>
+     document.addEventListener("DOMContentLoaded", function() {
+    const botaoSim = document.getElementById("sim-esquerdo");
+    const botaoNao = document.getElementById("sim-direito");
+
+    botaoSim.addEventListener("click", function() {
+        window.location.href = "https://www.youtube.com/watch?v=hv2lCmRXvtY&ab_channel=DisneyBrasil"; // Substitua pela URL desejada
+    });
+
+    botaoNao.addEventListener("click", function() {
+        window.location.href = "https://www.youtube.com/watch?v=XuzuxTg0Dzs&ab_channel=Eleotan"; // Substitua pela URL desejada para o botão "Não"
+    });
+});
+       
+    </script>
+</body>
+</html>
